@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import sklogo from "../Assets/Sk logo.jpg";
+import chinaman from "../Assets/chinaman.png";
 import Github from "../Assets/github.png";
 import Linkedin from "../Assets/linkedin.png";
 import Contact from "../Assets/contact-mail.png";
@@ -31,7 +32,7 @@ const Home = () => {
           </div>
           </div>
           <div className="photo">
-            <img src={sklogo} alt="Suresh Kannan Photo" />
+            <img src={chinaman} alt="Suresh Kannan Photo" />
           </div>
           
           </section>
