@@ -1,0 +1,104 @@
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  animation: Down 2.5s ease-out forwards;
+}
+
+.start h1 {
+  color: #00d0ff;
+  font-family: "Impact", "Arial Black", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+.start h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #00d0ff;
+  border: 3px solid;
+  padding: 5px 15px 13px 20px;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.click-icon {
+  color: white;
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.arrowbox {
+  cursor: pointer;
+}
+.arrow {
+  color: white;
+  font-weight: 500;
+  font-size: 80px;
+  cursor: pointer;
+  transform: rotate(10deg);
+  animation: moveUp 1s ease-out forwards, floating 0.7s ease-in-out infinite;
+}
+@keyframes moveUp {
+  0% {
+    transform: translateY(90vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes Down {
+  0% {
+    transform: translateY(60%);
+    opacity: 0.1;
+  }
+  50%{
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 650px) {
+.start h1{
+  font-size: 50px;
+}
+}
+@media only screen and (max-width: 400px) {
+.start h1{
+  font-size: 33px;
+}
+}
+.line1{
+  border-bottom: 1px solid;
+  width:90%;
+  margin: 0 auto;
+}
+.line2{
+  border-bottom: 1px solid ;
+  width:50%;
+  margin: 0 auto;
+}
