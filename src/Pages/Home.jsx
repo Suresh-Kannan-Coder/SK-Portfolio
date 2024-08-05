@@ -19,10 +19,7 @@ const Home = () => {
             <h1>Hi,I'm Girish Gaikwad</h1>
             <h4>Web Developer</h4>
             <p>
-              "A forward-thinking developer known for my logical mindset,
-              problem-solving prowess, and natural leadership abilities. With a
-              calm demeanor and a knack for clear communication, I excel at
-              navigating complex challenges and driving projects to success"
+              yo
             </p>
             <div className="social">
             <a href="#Contact" title="Contact"><img src={Contact} className="Contact-logo"></img></a>
