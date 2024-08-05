@@ -16,7 +16,7 @@ const Home = () => {
         <Hnav />
         <section className="contant">
           <div className="name">
-            <h1>Hi,I'm Suresh Kannan</h1>
+            <h1>Hi,I'm Girish Gaikwad</h1>
             <h4>Web Developer</h4>
             <p>
               "A forward-thinking developer known for my logical mindset,
