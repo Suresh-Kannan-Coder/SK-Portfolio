@@ -1,0 +1,246 @@
+#Project {
+  height: 100%;
+  padding: 60px 10px 5px 10px;
+  text-align: center;
+}
+
+#Project h2 {
+  color: #00d0ff;
+  font-size: 59px;
+  margin-bottom: 20px;
+  font-family: "Impact", "Arial Black", sans-serif;
+  font-weight: 500;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-slider-container {
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.project-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.project-card {
+  min-width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.project-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch; /* Ensures both left and right parts match in height */
+}
+
+.details-left {
+  background-color: #0b0b0b18;
+  width: 60%;
+  text-align: left;
+  padding: 15px 30px;
+  display: flex; /* Added */
+  flex-direction: column; /* To make sure the content stacks */
+  justify-content: space-between; /* Ensures content is spaced well */
+}
+
+.details-right {
+  width: 45%;
+  display: flex; /* Added */
+  flex-grow: 1; /* Ensures it expands with the left side */
+  align-items: center;
+  justify-content: center;
+}
+
+.project-image {
+  width: auto;
+  height: 470px;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.details-left h1 {
+  font-size: 100px;
+  color: #00d0ff;
+  font-weight: bold;
+  font-family: 'Delancey', sans-serif;
+  margin-bottom: 10px;
+}
+
+.details-left h3 {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Delancey', sans-serif;
+  margin-bottom: 15px;
+}
+
+.details-left p {
+  font-size: 18px;
+  color: #666;
+}
+
+.tech-stack {
+  width: 100%; 
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, max-content)); /* Ensures dynamic width but maintains minimum */
+}
+
+.tech {
+  border: 2px solid #00d0ff;
+  color: #e1e1e1;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 1rem;
+  margin: 8px 5px;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+
+.tech:hover {
+  background-color: #333;
+}
+
+
+.arrow-button {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 10px 8px 10px;
+  width: 50px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.github-button {
+  margin-right: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: transform 1.5s ease-in-out;
+}
+
+.github-button:hover {
+  transform: rotateY(360deg);
+}
+
+.arrow-button:hover {
+  background-color: #333;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.prev-button,
+.next-button {
+  background: none;
+  color: #fff;
+  border: none;
+  padding: 1px 15px 8px 20px;
+  font-size: 45px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: #333;
+}
+
+.project-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Media query for 1100px and below */
+@media (max-width: 1100px) {
+  #Project h2 {
+    font-size: 45px;
+  }
+
+  .details-left h1 {
+    font-size: 70px;
+  }
+
+  .details-left h3 {
+    font-size: 40px;
+  }
+
+  .details-left p {
+    font-size: 16px;
+  }
+
+  .project-image {
+    height: 350px;
+  }
+
+  .tech {
+    font-size: 13px;
+  }
+}
+
+/* Media query for 600px and below */
+@media (max-width: 900px) {
+  .project-card {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .project-details {
+    flex-direction: column-reverse;
+  }
+
+  .details-left {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .details-right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .project-image {
+    height: 250px;
+  }
+
+  .details-left h1 {
+    font-size: 50px;
+  }
+
+  .details-left h3 {
+    font-size: 30px;
+  }
+
+  .details-left p {
+    font-size: 14px;
+  }
+
+  .tech {
+    font-size: 12px;
+    margin: 5px;
+  }
+}

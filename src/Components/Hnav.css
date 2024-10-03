@@ -1,11 +1,12 @@
 .header {
-  position: absolute;
-  width: 99.2%;
+  position: fixed;
+  width: 100%;
   padding: 3px;
   display: flex;
   justify-content: space-between;
-  /* border-bottom: 2px solid #00d0ff; */
   overflow-x: hidden;
+  background:  #141414;
+  z-index: 1;
 }
 .logo {
   font-size: 30px;

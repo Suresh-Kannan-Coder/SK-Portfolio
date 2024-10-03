@@ -18,7 +18,7 @@ function Arrow() {
   return (
     <div className="start">
       <h1>Hello <span>Welcome</span> All</h1>
-      <div className="arrowbox" onClick={handleClick}>
+      <div className="arrow-box" onClick={handleClick}>
         <div className="arrow">&#11015;</div>
       </div>
       <h2 onClick={handleClick}>Click Me <TouchAppIcon className="click-icon" style={{ fontSize: 40 }}/></h2>

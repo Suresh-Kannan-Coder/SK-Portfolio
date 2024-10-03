@@ -7,6 +7,7 @@ import Like from "../Assets/like.png";
 import Gift from "../Assets/gift.png";
 import Bar from "../Assets/bar.png";
 import Idea from "../Assets/idea.png";
+import Passion from "../Assets/passion.png";
 
 function About() {
   const Aboutcard = [
@@ -17,10 +18,10 @@ function About() {
       image: Like,
     },
     {
-      title: "Exceptional Skills in Leadership and Oversight",
+      title: "My Passion for Coding",
       content:
-        "I excel in managing students and effectively supervising individuals, ensuring a positive and productive environment.",
-      image: Gift,
+        "I love solving problems and building things through code. Programming isn't just my profession—it's my passion. I enjoy exploring new technologies, and enhancing my skills.",
+      image: Passion,
     },
     {
       title: "Relentless Self-Improvement",
@@ -34,13 +35,19 @@ function About() {
         "I aspire to join a prestigious company not for the salary, but to challenge myself and enhance my knowledge",
       image: Idea,
     },
+    {
+      title: "Skills in Leadership and Oversight",
+      content:
+        "I excel in managing students and effectively supervising individuals, ensuring a positive and productive environment.",
+      image: Gift,
+    },
   ];
 
   return (
-    <div style={{ height: "auto" }}>
+    <div style={{ height: "auto" }} id="About">
       <div className="About" id="About">
         <h1>
-          WHYS <span>CHOOSE</span> US
+          WHY <span>CHOOSE</span> ME
         </h1>
         <div className="aboutimage">
           <img src={sklogo} alt="" />

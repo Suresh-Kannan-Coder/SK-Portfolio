@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 86vh;
+  height: 90vh;
 }
 .name {
   padding: 15px;
@@ -116,6 +116,7 @@ body {
 .Linked-in:hover{
   transform: scale(.9);
 }
+
 .photo img {
   width: 50vh;
   border-radius: 50vh;
@@ -123,9 +124,12 @@ body {
   border: 2px solid #00d0ff;
   box-shadow: 0 0 15px #00d0ff;
   transition: 1s ease-in-out;
+  display: inline-block;
+  transition: transform 1s ease-in-out;
 }
 .photo img:hover {
   transform: scale(1.15);
+
 }
 @media only screen and (max-width: 1100px) {
   .contant {
@@ -150,10 +154,10 @@ body {
     overflow-x: hidden;
   }
   .name {
-    width: 400px;
+    width: 350px;
   }
   .name h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .name h4 {
     font-size: 18px;

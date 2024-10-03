@@ -5,7 +5,7 @@
 }
 .About h1{
   color: #00d0ff;
-  font-size: 58px;
+  font-size: 59px;
   text-align: center;
   padding-top: 30px;
   text-transform: uppercase;
@@ -56,7 +56,7 @@ span {
   margin: 0 100px;
   border-radius: 10px;
   text-align: center;
-  /* padding: 20px; for mobile view*/
+  /* padding: 20px; */
 }
 @keyframes slideIn {
   from {
@@ -70,7 +70,7 @@ span {
 }
 
 .cards {
-  height: 280px;
+  height: 320px;
   background-color: #1a1a1a;
   color: #fff;
   padding: 20px;
@@ -103,13 +103,13 @@ span {
   }
   
 }
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 730px) {
   .card{
     padding:20px ;
   }
   .cards{
     margin: 8px auto;
-    width: 210px;
+    width: 272px;
   }
   .aboutimage img{
     width: 250px;

@@ -119,7 +119,7 @@ const cerificatedata = [
   { id: 4, by: "Guvi", for: "Python", image: certificate},
   { id: 5, by: "Guvi", for: "Python", image: certificate},
 ];
-function Resume() {
+function Skills() {
   const [showPopup, setShowPopup] = useState(false);
 
   const handleIconClick = () => {
@@ -158,32 +158,8 @@ function Resume() {
         ))}
       </div>
       <div className="line2"></div>
-      <br />
-      <br />
-      <h2>
-        CE<span>R</span>TIFIC<span>ATE</span>S
-      </h2>
-      <div className="menu">
-        {cerificatedata.map((item, index) => (
-          <div className="certificate" key={index} onClick={handleIconClick}>
-            <h3>CERTIFICATE</h3>
-            <div className="detail"><h4>By : {item.by}</h4>
-            <h5>For : {item.for}</h5>
-            </div>
-            <div className="icon" onClick={handleIconClick}>
-              &#10530;
-            </div>
-          </div>
-        ))}
-
-        {showPopup && (
-          <div className="popup" onClick={handleOutsideClick}>
-            <img src={certificate} alt="Popup Image" />
-          </div>
-        )}
-      </div>
     </div>
   );
 }
 
-export default Resume;
+export default Skills;

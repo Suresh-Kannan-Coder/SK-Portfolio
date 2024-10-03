@@ -9,7 +9,7 @@ const Hnav = () => {
           Suresh <span className="logo-inf">.</span>
         </a>
         <nav className="navbar">
-          <a href="/" title="Home">
+          <a href="#Home" title="Home">
             Home
           </a>
           <a href="#About" title="About">
@@ -18,10 +18,10 @@ const Hnav = () => {
           <a href="#Skills" title="Skills">
             Skills
           </a>
-          <a href="" title="Projects">
+          <a href="#Project" title="Projects">
             Projects
           </a>
-          <a href="" title="Contact">
+          <a href="#Contact" title="Contact">
             Contact
           </a>
         </nav>

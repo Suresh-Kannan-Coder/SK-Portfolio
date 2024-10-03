@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .start {
   display: flex;
   justify-content: center;
@@ -39,7 +44,7 @@
     opacity: 1;
   }
 }
-.arrowbox {
+.arrow-box {
   cursor: pointer;
 }
 .arrow {
@@ -74,7 +79,7 @@
     transform: translateY(60%);
     opacity: 0.1;
   }
-  50%{
+  50% {
     opacity: 0.2;
   }
   100% {
@@ -83,22 +88,22 @@
   }
 }
 @media only screen and (max-width: 650px) {
-.start h1{
-  font-size: 50px;
-}
+  .start h1 {
+    font-size: 50px;
+  }
 }
 @media only screen and (max-width: 400px) {
-.start h1{
-  font-size: 33px;
+  .start h1 {
+    font-size: 33px;
+  }
 }
-}
-.line1{
+.line1 {
   border-bottom: 1px solid;
-  width:90%;
+  width: 90%;
   margin: 0 auto;
 }
-.line2{
-  border-bottom: 1px solid ;
-  width:50%;
+.line2 {
+  border-bottom: 1px solid;
+  width: 70%;
   margin: 0 auto;
 }
