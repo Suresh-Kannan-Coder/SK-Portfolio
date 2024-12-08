@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import sklogo from "../Assets/Sk logo.jpg";
+import sklogo from "../Assets/home-img.jpg";
 import { Grid } from "@mui/material";
 import Card from "../Components/Card";
 import Like from "../Assets/like.png";

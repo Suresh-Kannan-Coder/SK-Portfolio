@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import sklogo from "../Assets/Sk logo.jpg";
+import sklogo from "../Assets/home-img.jpg";
 import Github from "../Assets/github.png";
 import Linkedin from "../Assets/linkedin.png";
 import Contact_icon from "../Assets/contact-mail.png";
